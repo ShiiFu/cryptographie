@@ -1,7 +1,7 @@
 import math
 
 def euler(n) : 
-	""" Retourne phi de N """
+	""" Retourne l'indicateur d'Euler de N """
 	n = int(n)
 	tab = [0] * (n+1)
 	i = 2
